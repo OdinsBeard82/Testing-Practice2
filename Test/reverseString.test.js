@@ -1,9 +1,8 @@
-const { reverseString } = require("./reverseString");
+const reverseString = require('../Code/reverseString')
 
-test('Test1', () => {
-            expect(reverseString('couRt')).toBe('court');
+    
+    test('What is Thors hammer called', () => {
+        expect(reverseString('Mjornir')).toBe('rinrojM');
         });
-  
     
 
-module.exports = reverseString;

@@ -1,5 +1,0 @@
-class calculator {
-    add
-    return
-
-}
