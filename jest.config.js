@@ -1,5 +1,8 @@
-/** @type {import('ts-jest').JestConfigWithTsJest} */
+// jest.config.js
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
+  transform: {
+    '^.+\\.jsx?$': 'babel-jest'
+  }
 };
